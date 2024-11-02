@@ -1,0 +1,40 @@
+/* Center the app content and add padding */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Add styling for headings */
+h1 {
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Styling for the file input */
+input[type="file"] {
+  margin: 15px 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Styling for error or info messages */
+.message {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Container for the graph */
+.graph-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
